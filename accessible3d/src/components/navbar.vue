@@ -14,7 +14,7 @@
             > 
                 <v-tab>HOME</v-tab>
                 <v-tab>GET STARTED</v-tab>
-                <v-tab>PROJECTS</v-tab>
+                <v-tab>EXAMPLES</v-tab>
                 <v-tab>FAQ</v-tab>
             </v-tabs>
             

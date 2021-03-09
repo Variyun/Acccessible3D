@@ -78,7 +78,7 @@
                 max-width="720"
                 data-aos="fade-down" data-aos-duration="500" data-aos-delay="200"
             >
-                Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum eleifend magna, ut placerat libero venenatis quis. Cras auctor tristique pulvinar. Nam eu vulputate nisi, nec luctus felis. Curabitur ullamcorper elementum augue, vitae gravida ex lacinia quis. Fusce molestie, dolor non vulputate cursus, enim libero imperdiet lorem, ut ultricies mi orci sit amet arcu. Fusce sed diam at diam iaculis lobortis. Duis vitae egestas neque, mattis porta tellus. Cras sit amet erat convallis, consequat ipsum eget, condimentum leo.
             </v-responsive>
             
             <v-row >
@@ -162,13 +162,13 @@
                 <v-divider></v-divider>
             </v-responsive>
 
-            <v-row class="pt-5" no-gutters> 
-                <v-col class="px-0 mx-0" align="left" justify="center">
+            <v-row class="pb-10 mx-15" no-gutters> 
+                <v-col class="px-0" align="left" justify="center">
                     <h2 class="font-weight-light" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="500">
-                    Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns of electromagnetic radiant imagery and other phenomena.
+                    Accessible 3D is about enabling everyday people with all varieties of backgrounds, to produce high quality 3D models using photos taken from their very own smart phones. By making this technology accessible to everybody, we can bring more attention to its application in various industries such as construction, commerce, health services, and so much more. Here, you can find all the resources you need to get you started on making your very own 3D models. 
                     </h2>
                 </v-col>
-                <v-col align="right" justify="center" class="hidden-sm-and-down">
+                <v-col align="right" justify="center" class="hidden-md-and-down" cols="6">
                     <v-img src="../assets/phone_white.png" 
                     max-width="40%" 
                     :max-height="'calc(60vh)'" 
@@ -255,7 +255,7 @@
                     cols="auto"
                 >
                     <v-btn
-                    color="indigo lighten-3"
+                    color="indigo lighten-1"
                     x-large
                     >
                     Submit
@@ -305,12 +305,13 @@
         const top = window.pageYOffset ||   e.target.scrollTop || 0
         this.fab = top > 20
       },
-      toTop () {
+      toTop() {
         this.$vuetify.goTo(0)
       }
     },
     mounted() {
       this.load = true;  
+      window.scrollTo(0, 0);
     },
     data: () => ({
         fab:false,

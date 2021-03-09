@@ -3,7 +3,7 @@
         <v-parallax
           :height="$vuetify.breakpoint.smAndDown ? 500 : 300"
           width="100%"
-          src="../assets/background.png"
+          src="../assets/background.jpg"
         >
           <v-container fill-height>
             <v-row class="mx-auto">
@@ -46,7 +46,7 @@
                             <v-card-title class="title">
                             Lorem Ipsum Dolor
                             </v-card-title>
-                            <v-card-text class="white text--primary">
+                            <v-card-text class="white black--text">
                                 <p>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</p>
                                 <v-btn
                                     :color="item.color"
@@ -89,6 +89,9 @@ export default {
     },
     ],
   }),
+  mounted() {
+      window.scrollTo(0, 0);
+  }
 };
 
 </script>

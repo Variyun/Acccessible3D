@@ -11,7 +11,7 @@
 import navbar from './components/navbar';
 import home from './components/home';
 import manual from './components/manual';
-import projects from './components/projects';
+import examples from './components/examples';
 import faq from './components/faq';
 
 import {eventBus} from './main.js';
@@ -23,7 +23,7 @@ export default {
     navbar,
     home,
     manual,
-    projects,
+    examples,
     faq,
   },
 
@@ -41,7 +41,7 @@ export default {
           this.currentTab = "manual";
           break;
         case 2:
-          this.currentTab = "projects";
+          this.currentTab = "examples";
           break;
         case 3:
           this.currentTab = "faq";
