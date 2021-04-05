@@ -31,6 +31,9 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </v-row>
+      <v-row justify="center" class="ma-10" data-aos="zoom-in" data-aos-duration="1000">
+        <span> Can't find your question? Contact us!</span>
+      </v-row>
     </v-container>
 </template>
 
@@ -51,11 +54,11 @@ export default {
         },
         {
           q: "How do I become successful in life?",
-          a: "Git Gud"
+          a: "Get a small loan of 1 million dollars."
         },
         {
-          q: "What is the meaning of life?",
-          a: "To slay your enemies, see them driven before you, and to hear the lamentations of their women."
+          q: "What is best in life?",
+          a: "To crush your enemies, see them driven before you, and to hear the lamentations of their women."
         },
         {
           q: "Any questions?",

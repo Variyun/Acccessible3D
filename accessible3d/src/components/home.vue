@@ -78,7 +78,7 @@
                 max-width="720"
                 data-aos="fade-down" data-aos-duration="500" data-aos-delay="200"
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum eleifend magna, ut placerat libero venenatis quis. Cras auctor tristique pulvinar. Nam eu vulputate nisi, nec luctus felis. Curabitur ullamcorper elementum augue, vitae gravida ex lacinia quis. Fusce molestie, dolor non vulputate cursus, enim libero imperdiet lorem, ut ultricies mi orci sit amet arcu. Fusce sed diam at diam iaculis lobortis. Duis vitae egestas neque, mattis porta tellus. Cras sit amet erat convallis, consequat ipsum eget, condimentum leo.
+               First and foremost, thank you for visiting our website! We are a team of dedicated geomatics engineers from the University of Calgary. As geomatics engineers, we strive to bring more awareness about the awesome technology we learn about and use in our ever-growing industry through ACCESSIBLE 3D. From each of us on the team, we hope that you can find everything you need to dive into the world of 3D modelling! 
             </v-responsive>
             
             <v-row >
@@ -97,7 +97,7 @@
                         class="elevation-12 mb-3"
                         size="128"
                     >
-                        <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
+                        <v-img src="../assets/jh_icon.png"></v-img>
                     </v-avatar>
                     <br/>
                     <span>JOSH</span>
@@ -107,7 +107,7 @@
                         class="elevation-12 mb-3"
                         size="128"
                     >
-                        <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
+                        <v-img src="../assets/mk_icon.png"></v-img>
                     </v-avatar>
                     <br/>
                     <span>MICHAEL</span>
@@ -164,9 +164,13 @@
 
             <v-row class="pb-10 mx-15" no-gutters> 
                 <v-col class="px-0" align="left" justify="center">
-                    <h2 class="font-weight-light" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="500">
-                    Accessible 3D is about enabling everyday people with all varieties of backgrounds, to produce high quality 3D models using photos taken from their very own smart phones. By making this technology accessible to everybody, we can bring more attention to its application in various industries such as construction, commerce, health services, and so much more. Here, you can find all the resources you need to get you started on making your very own 3D models. 
-                    </h2>
+                    <h3 class="font-weight-light" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="500">
+                    ACCESSIBLE 3D is about enabling everyday people to produce high quality 3D models using just a mobile phone camera, with no prior knowledge necessary. By making reconstruction accessible to all, the group aims to bring attention to the industry’s recent advancements in efficiency and cost.
+                    </h3>
+                    <p></p>
+                    <h3 class="font-weight-light" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="500"> 
+                    Many of today’s hottest technologies (e.g. Computer vision, AI, Autonomy) require 3D data, whether it’s LIDAR, positioning, or model data. We hope to reduce the entry barrier for photogrammetry through education, in turn promotes innovation in engineering in the future.
+                    </h3>
                 </v-col>
                 <v-col align="right" justify="center" class="hidden-md-and-down" cols="6">
                     <v-img src="../assets/phone_white.png" 

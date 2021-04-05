@@ -77,12 +77,12 @@ export default {
           download: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          title: 'Pile of Books',
+          title: 'Stack of Books',
           image: 'https://i.imgur.com/Fw2yJ2j.png',
           download: 'Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
         },
         {
-          title: 'Bad Luck',
+          title: 'Totem of Bad Luck',
           image: 'https://i.imgur.com/9Oivncr.png',
           download: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
